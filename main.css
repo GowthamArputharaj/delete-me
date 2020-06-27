@@ -1,0 +1,32 @@
+body {
+    overflow: hidden;
+}
+
+#color {
+    display: flex;
+    flex-direction: row;
+}
+
+#left {
+    display: inline-block;
+    width: 50vw;
+    height: 100vh;
+    background-color: red;
+}
+
+#right {
+    display: inline-block;
+    width: 50vw;
+    height: 100vh;
+    background-color: blue;
+}
+
+#text {
+    font-family: monospace;
+    color: yellow;
+    font-size: 2rem;
+    position: absolute;
+    margin: 0 auto;
+    top: 35%;
+    text-align: center;
+}
